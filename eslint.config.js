@@ -23,6 +23,7 @@ export default tseslint.config({
 			{ allowConstantExport: true }
 		],
 		quotes: ['error', 'single'],
+		'jsx-quotes': ['error', 'prefer-double'],
 		semi: ['error', 'always'],
 		'@typescript-eslint/no-empty-object-type': [
 			'error',
