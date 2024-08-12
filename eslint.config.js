@@ -23,6 +23,12 @@ export default tseslint.config({
 			{ allowConstantExport: true }
 		],
 		quotes: ['error', 'single'],
-		semi: ['error', 'always']
+		semi: ['error', 'always'],
+		'@typescript-eslint/no-empty-object-type': [
+			'error',
+			{
+				allowInterfaces: 'with-single-extends'
+			}
+		]
 	}
 });
